@@ -1,36 +1,31 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "bilinear",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Bilinear",
+  "description": "Makes all textures look disgusting.",
   "authors": [
-    "Me!"
+    "@balt#6423"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/balt-is-you-and-shift/ModdedPlayground/tree/bilinear"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/bilinear/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.ExampleMod"
-    ]
-  },
+  "entrypoints": {},
   "mixins": [
-    "modid.mixins.json"
+    "bilinear.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
-    "minecraft": "~1.19",
-    "java": ">=17"
+    "minecraft": ">=1.17",
+    "java": ">=16"
   },
   "suggests": {
     "another-mod": "*"
