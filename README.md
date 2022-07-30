@@ -5,6 +5,7 @@ This makes _every texture_ use bilinear interpolation. This doesn't apply to dra
 ---
 ### TODO
 Particles\
+Potion effect icons\
 (If you have any you notice, open an issue!)
 
 ---
