@@ -6,6 +6,7 @@ This makes _every texture*_ use bilinear interpolation. This doesn't apply to dr
 ### TODO
 Particles\
 Potion effect icons\
+Player faces in tab menu that aren't in render distance\
 (If you have any you notice, open an issue!)
 
 ---
