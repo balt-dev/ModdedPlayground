@@ -1,9 +1,20 @@
-# Fabric Example Mod
+# Bilinear
 
-## Setup
+This makes _every texture*_ use bilinear interpolation. This doesn't apply to drawn quads, because that'd be hell to implement.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+---
+### TODO
+Particles\
+Potion effect icons\
+(If you have any you notice, open an issue!)
 
-## License
+---
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+![image](https://user-images.githubusercontent.com/59123926/181863588-7e4bc289-99fd-47ba-b814-798b4f638f12.png)
+Title Screen
+
+![2022-07-29_19 32 11](https://user-images.githubusercontent.com/59123926/181863621-f66812f6-0a39-4050-95b5-b92a8a59b1e5.png)
+In Game
+
+![2022-07-29_19 32 27](https://user-images.githubusercontent.com/59123926/181863618-4c883b1e-2dc0-47a8-ae14-52a54835f5d3.png)
+Skins work
