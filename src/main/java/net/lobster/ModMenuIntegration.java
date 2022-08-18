@@ -1,4 +1,4 @@
-package net.yummy;
+package net.lobster;
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;

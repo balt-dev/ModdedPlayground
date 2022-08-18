@@ -1,31 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "yummy",
+  "id": "lobster",
   "version": "${version}",
 
-  "name": "yummy",
-  "description": "nom nom nom",
+  "name": "Lobster",
+  "description": "Tweak obfuscated text, and give it a chance to display as not obfuscated.",
   "authors": [
     "balt#6423"
   ],
   "contact": {
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/balt-is-you-and-shift/ModdedPlayground/tree/undecided_atm"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/yummy/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.yummy.ExampleMod"
+      "net.lobster.LessObfuscated"
     ],
     "modmenu": [
-      "net.yummy.ModMenuIntegration"
+      "net.lobster.ModMenuIntegration"
     ]
   },
   "mixins": [
-    "yummy.mixins.json"
+    "lobster.mixins.json"
   ],
 
   "depends": {
