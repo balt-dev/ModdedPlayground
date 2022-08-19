@@ -1,4 +1,4 @@
-package net.arbitrary;
+package net.pickmod;
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;

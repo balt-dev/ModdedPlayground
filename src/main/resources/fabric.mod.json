@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "lobster",
+  "id": "pickmod",
   "version": "${version}",
 
-  "name": "Arbitrary",
-  "description": "oh god oh fuck",
+  "name": "PickMod",
+  "description": "Mod for all your ⛏ needs.",
   "authors": [
     "balt#6423"
   ],
@@ -17,14 +17,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.arbitrary.Arbitrary"
+      "net.pickmod.PickMod"
     ],
     "modmenu": [
-      "net.arbitrary.ModMenuIntegration"
+      "net.pickmod.ModMenuIntegration"
     ]
   },
   "mixins": [
-    "arbitrary.mixins.json"
+    "pickmod.mixins.json"
   ],
 
   "depends": {

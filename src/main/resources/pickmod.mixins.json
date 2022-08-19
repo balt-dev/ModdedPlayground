@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.arbitrary.mixin",
+  "package": "net.pickmod.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "ChestCooldownMixin"
   ],
   "injectors": {
     "defaultRequire": 1
