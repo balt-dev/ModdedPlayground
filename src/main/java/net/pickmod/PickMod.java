@@ -11,7 +11,6 @@ public class PickMod implements ModInitializer {
 	public static ModConfig config;
 	@Override
 	public void onInitialize() {
-
 		AutoConfig.register(ModConfig.class, Toml4jConfigSerializer::new);
 		config = AutoConfig.getConfigHolder(ModConfig.class).getConfig();
 	}

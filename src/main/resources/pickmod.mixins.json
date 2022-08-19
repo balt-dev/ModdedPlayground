@@ -6,7 +6,9 @@
   "mixins": [
   ],
   "client": [
-    "ChestCooldownMixin"
+    "ChestCooldownMixin",
+    "RemoveUnackedBlockLimitMixin",
+    "ItemDisplayLockMixin"
   ],
   "injectors": {
     "defaultRequire": 1

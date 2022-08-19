@@ -26,6 +26,7 @@ public class ChestCooldownMixin {
                 try {
                     Thread.sleep(480000); //8 minutes in milliseconds
                     client.getToastManager().add(new SystemToast(SystemToast.Type.PERIODIC_NOTIFICATION,Text.of("⛏"), new TranslatableText("text.pickmod.chest_notification")));
+                    PickMod.LOGGER.info("Chest cooldown expired!");
                 } catch (InterruptedException e) {
                     PickMod.LOGGER.warn("Chest thread interrupted!");
                 }
