@@ -3,8 +3,8 @@
   "id": "lobster",
   "version": "${version}",
 
-  "name": "Lobster",
-  "description": "Tweak obfuscated text, and give it a chance to display as not obfuscated.",
+  "name": "Arbitrary",
+  "description": "oh god oh fuck",
   "authors": [
     "balt#6423"
   ],
@@ -17,14 +17,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.lobster.LessObfuscated"
+      "net.arbitrary.Arbitrary"
     ],
     "modmenu": [
-      "net.lobster.ModMenuIntegration"
+      "net.arbitrary.ModMenuIntegration"
     ]
   },
   "mixins": [
-    "lobster.mixins.json"
+    "arbitrary.mixins.json"
   ],
 
   "depends": {
