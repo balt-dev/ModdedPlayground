@@ -1,3 +1,12 @@
 {
-  "text.pickmod.chest_notification": "Che"
+  "text.pickmod.chest_notification": "Chest cooldown expired",
+  "text.autoconfig.pickmod.title": "⛏Mod Options",
+  "text.autoconfig.pickmod.option.showChest": "Show Chest Cooldown Expiration",
+  "text.autoconfig.pickmod.option.showChest.@Tooltip": "Whether or not to display a toast when the chest cooldown expires.",
+  "text.autoconfig.pickmod.option.showLock": "Show Lock on Locked Items",
+  "text.autoconfig.pickmod.option.showLock.@Tooltip": "Whether or not to show a locked icon on items that are locked.",
+  "text.autoconfig.pickmod.option.disableUnackedError": "Disable Unacknowledged Action Error",
+  "text.autoconfig.pickmod.option.disableUnackedError.@Tooltip": "Suppress the 'Too many unacked block actions' error.",
+  "category.pickmod.binds": "⛏Mod Keybinds",
+  "key.pickmod.quickup": "Quick @up"
 }

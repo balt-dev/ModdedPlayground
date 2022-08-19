@@ -7,5 +7,9 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry;
 @Config(name = "pickmod")
 public class ModConfig implements ConfigData {
     @ConfigEntry.Gui.Tooltip
-    public boolean dummy = false;
+    public boolean showChest = true;
+    @ConfigEntry.Gui.Tooltip
+    public boolean showLock = true;
+    @ConfigEntry.Gui.Tooltip
+    public boolean disableUnackedError = true;
 }

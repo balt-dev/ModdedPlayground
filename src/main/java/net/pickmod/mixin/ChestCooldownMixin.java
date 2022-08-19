@@ -20,7 +20,7 @@ public class ChestCooldownMixin {
     MinecraftClient client = MinecraftClient.getInstance();
     @Inject(at = @At("HEAD"), method = "addMessage(Lnet/minecraft/text/Text;IIZ)V")
     public void onAddMessage(Text message, int messageId, int timestamp, boolean refresh, CallbackInfo ci) {
-        if (Objects.equals(Text.Serializer.toJson(message), chestMessageAsJson)) {
+        if (Objects.equals(Text.Serializer.toJson(message), chestMessageAsJson) && PickMod.config.showChest) {
             PickMod.LOGGER.info("Chest found!");
             new Thread(() -> {
                 try {
